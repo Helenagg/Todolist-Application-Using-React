@@ -7,8 +7,8 @@ import CreateTask from "./createtask.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
-			<h1>TASKS</h1>
+		<div className="container text-center bg-light">
+			<h1>TODOLIST</h1>
 			<CreateTask/>
 		</div>
 	);
